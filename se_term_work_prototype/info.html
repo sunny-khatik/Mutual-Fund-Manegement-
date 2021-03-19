@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MUTUAL FUNDS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+                <style>
+        body {
+            background-color: #ddd;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        .navbar a {
+          float: left;
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+          font-size: 16px;  
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+          background-color: cornflowerblue;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        .full-height {
+          height: 100%;
+      }
+        </style>    
+        <div class="navbar">
+            <a href="home.html" >Home</a>
+            <a href="Settings">Settings</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Profile
+                </button>
+                <div class="dropdown-content">
+                    <a href="index.html">Log Out</a>
+                </div>
+            </div>
+            
+        </div>
+
+    <div class="full-height" style="background-color:grey">
+    <form action="success.html" method="POST">
+        <br>
+        <h1>HDFC Small Cap Fund Direct Growth</h1><br>
+        <h5>Moderatly High Risk - Equity - Small Cap</h5>
+        <br>
+        Fund Size : ₹ 6,246 Cr.
+        <br>
+        Current NAV : ₹ 30.62
+        <br><br><br>
+        <table>
+          <tr>
+            <td>Return</td>
+            <td>1Y</td>
+            <td>3Y</td>
+            <td>5Y</td>
+          </tr>
+          <tr>
+            <td>
+              Fund Returns
+            </td>
+            <td>-34.5%</td>
+            <td>-5.5%</td>
+            <td>2.9%</td>
+          </tr>
+          <tr>
+            <td>
+              Catagory Returns
+            </td>
+            <td>-39.3%</td>
+            <td>-16.2%</td>
+            <td>-</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        1.05% Expense Ratio
+        <br>
+        Exit load of 1% if redeemed within 1 year
+        <br><br>
+        Fund Managers   :   Chirag Setalvad , Amar Kalkundrikar , Chirag Dagli
+        <br><br>
+        Holdings : <br>
+        <table>
+          <tr>
+            <td>NIIT Technologies Ltd.</td>
+            <td>3.24%</td>
+          </tr>
+          <tr>
+            <td>Atul Ltd.</td>
+            <td>3.06%</td>
+          </tr>
+          <tr>
+            <td>Balkrishna Industries Ltd.</td>
+            <td>3.04%</td>
+          </tr>
+          <tr>
+            <td>Bajaj Electricals Ltd.</td>
+            <td>2.94%</td>
+          </tr>
+          <tr><td>INOX Leisure Ltd.</td>
+          <td>2.87%</td></tr>
+        </table>
+        <p>
+          <label>Select : </label>
+          <select id = "lump-sip">
+            <option value = "1">Lumpsum(one-time)</option>
+            <option value = "2">SIP(monthly)</option>
+          </select>
+          </p>
+          <br>
+          Enter Amount:  <input type="number" name="amt"/>
+          <br>
+          <br>
+          <br>
+                           <input type="submit" name="Submit" value="submit">
+<br><br>
+                           <a href="home.html">Go to Home</a>
+        </form>
+        </div>
+    </body>
+</html>

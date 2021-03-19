@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            body {background-color: grey;}
+            form {
+            margin: auto;
+            width: 50%;
+            border: 3px solid black;
+            padding: 8px;
+          }
+        </style>
+        <form action="home.html" method="POST"><br>
+            <h1>Provide Personal & Banking Details</h1><br>
+            <table>
+                <tr>
+                    <td>
+                        Pan no. :
+                    </td>
+                    <td>
+                        <input type="text" name="pan" value="" required="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Birth Date : 
+                    </td>
+                    <td>
+                        <input type="text" name="bdate" value="" required=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Bank Account no. :
+                    </td>
+                    <td>
+                        <input type="number" name="acno" value="" required="" minlength="8" maxlength="14"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        IFSC Code : 
+                    </td>
+                    <td>
+                        <input type="text" name="ifscno" value="" required=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Branch Name : 
+                    </td>
+                    <td>
+                        <input type="text" name="bname" value="" required=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="autopay" name="autopay"> Autopay
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Sign Up" name="submit" />
+                        <input type="reset" value="Cancel"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

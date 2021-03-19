@@ -1,0 +1,20 @@
+		project title-->Mutual Fund Management Software.
+	1.
+	
+	Name     : Sunny Khatik G.
+	Branch   : CE
+	Semester : 4
+	ID       : 18CEUBG082
+	RollNo.  : 61
+	Batch    : C-4
+	Subjct   : Software Engineering
+	
+	2.
+	
+	Name     : Brijesh Khunt A.
+	Branch   : CE
+	Semester : 4
+	ID       : 18CEUOS0482
+	RollNo.  : 63
+	Batch    : C-4
+	Subjct   : Software Engineering
